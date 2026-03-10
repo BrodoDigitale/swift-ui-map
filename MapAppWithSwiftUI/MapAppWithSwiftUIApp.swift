@@ -2,7 +2,7 @@
 //  MapAppWithSwiftUIApp.swift
 //  MapAppWithSwiftUI
 //
-//  Created by Alessandro Biondi on 10/03/26.
+//  Created by Iuliia Sensi on 10/03/26.
 //
 
 import SwiftUI
