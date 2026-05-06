@@ -10,22 +10,9 @@
 		2BE6A3672F6073EA00342BFC /* MapAppWithSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapAppWithSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		2BE6A3892F607D8400342BFC /* Exceptions for "MapAppWithSwiftUI" folder in "MapAppWithSwiftUI" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				DataServices/LocationsDataService.swift,
-			);
-			target = 2BE6A3662F6073EA00342BFC /* MapAppWithSwiftUI */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		2BE6A3692F6073EA00342BFC /* MapAppWithSwiftUI */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				2BE6A3892F607D8400342BFC /* Exceptions for "MapAppWithSwiftUI" folder in "MapAppWithSwiftUI" target */,
-			);
 			path = MapAppWithSwiftUI;
 			sourceTree = "<group>";
 		};
