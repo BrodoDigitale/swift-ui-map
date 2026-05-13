@@ -21,7 +21,10 @@ class LocationsViewModel: ObservableObject {
         }
     }
     
+    //current region
     @Published var region: MapCameraPosition = .region(MKCoordinateRegion())
+    
+    @Published var showLocationsList: Bool = false
     
     var mapSpan = MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1)
     
@@ -36,5 +39,18 @@ class LocationsViewModel: ObservableObject {
         withAnimation(.easeOut, {
             region = .region(MKCoordinateRegion(center: location.coordinates, span: mapSpan))
         })
+    }
+    
+    func toggleLocationsList() {
+        withAnimation(.easeOut){
+            showLocationsList = !showLocationsList
+            
+        }
+    }
+    func showNextLocation(location: Location){
+        withAnimation(.easeOut) {
+            mapLocation = location
+            showLocationsList = false
+        }
     }
 }
